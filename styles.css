@@ -1,0 +1,366 @@
+/*********************************body********************************/
+body {
+    position: relative;
+    margin: 0;
+    background-color: #cfd3ce;
+    text-align: center;
+
+}
+
+/****************************links*********************************/
+a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+} 
+
+/**********************************top-container*********************************************/
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .top-container {
+    background-image: url("alexander-andrews-jNKv4QohAk0-unsplash.jpg");
+    background-color: #cccccc;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.nav-bar {
+    font-size: 1.5rem;
+    background-color: grey;
+    height: 20px;
+    padding: 30px;
+}
+
+.top {
+    float: right;
+    margin-right: 30px;
+}
+
+.left {
+    float: left;
+    margin-left: 30px;
+}
+
+.white-logo {
+    height: auto;
+    width: 500px;
+    position: absolute;
+    top: 30%;
+}
+.motto {
+    margin: 0;
+    position: absolute;
+    bottom: 20px;
+    display: inline-block;
+    width: 50%;
+}
+/**************************************banner**********************************/
+.banner {
+    background-image: url("siora-photography-cixohzDpNIo-unsplash.jpg");
+    background-color: #cccccc;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 40px;    
+}
+.banner-container {
+    margin: 50px;
+}
+/***********************************about-container******************************/
+.heading{
+    font-size: 3rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #87431d
+}
+.about-container {
+    position: relative;
+    margin-bottom: 40px;
+}
+.gold {
+    height: auto;
+    width: 600px;
+    float: left;
+    position: absolute;
+    left: 5%;
+    top: -35%;
+}
+.description {
+    width: 50%;
+    margin-top: 0;
+    margin-right: 100px;
+    text-align: justify;
+    float: right;
+    font-size: 1.5rem;
+}
+/**********************************************hr************************************************/
+hr {
+    width: 4%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #87431d;
+    border-width: 5px
+}
+
+
+/*******************************************container*****************************************/
+.container {
+    position: relative;
+
+}
+
+.pic {
+    height: auto;
+    width: 300px;
+    border-radius: 30%;
+    box-shadow: 5px 10px grey;
+    position: inline;
+    left: 300px;
+
+}
+
+.sub {
+    width: 30%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.brief {
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 300px;
+    text-align: justify;
+    float: left;
+    font-size: 1.5rem;
+}
+
+.best {
+    text-decoration: underline;
+    margin-left: 0;
+}
+
+/**********************************bottom-container******************************************/
+.bottom-container {
+    padding-top: 50px;
+    font-size: 1.2rem;
+    background-color: grey;
+    height: 200px;
+    position: relative;
+}
+
+.email {
+    left: 40%;
+    text-align: justify;
+    position: relative;
+    color: white;
+    width: 30%;
+
+}
+input {
+    display: block;
+}
+
+.copy {
+    position: relative;
+    top: 40px;
+}
+/**********************************************mediaqueries***********************************/
+@media screen and (max-width: 768px) {
+body {
+    text-align: center;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .top-container {
+    background-image: url("alexander-andrews-jNKv4QohAk0-unsplash.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.nav-bar {
+    font-size: 1rem;
+    background-color: grey;
+    height: 10px;
+    padding: 30px;
+}
+
+.top {
+    float: right;
+    margin-right: 5px;
+}
+
+.left {
+    float: left;
+    margin-left: 5px;
+}
+
+.motto {
+    margin: 0;
+    position: absolute;
+    bottom: 20px;
+    display: inline-block;
+    width: 50%;
+}
+/**************************************banner**********************************/
+.banner {
+    background-image: url("siora-photography-cixohzDpNIo-unsplash.jpg");
+    background-color: #cccccc;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5px;    
+}
+.banner-container {
+    margin: 50px;
+}
+/***********************************about-container******************************/
+.heading{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #87431d
+}
+.about-container {
+    position: relative;
+    margin-bottom: 40px;
+}
+.gold {
+    height: auto;
+    width: 300px;
+    position: relative;
+    float: none;
+    left: 0;
+    
+    
+}
+.description {
+    width: 50%;
+    margin-top: 0;
+    text-align: justify;
+    font-size: 1rem;
+    position: relative;
+}
+/**********************************************hr************************************************/
+hr {
+    width: 6%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #87431d;
+    border-width: 5px
+}
+
+
+/*******************************************container*****************************************/
+.container {
+    position: relative;
+
+}
+
+.pic {
+    height: auto;
+    width: 200px;
+    border-radius: 30%;
+    box-shadow: 5px 10px grey;
+    position: inline;
+
+}
+
+.sub {
+    width: 60%;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.brief {
+    margin-left: 10%;
+    margin-top: 100px;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.best {
+    text-decoration: underline;
+    margin-left: 0;
+}
+
+/**********************************bottom-container******************************************/
+.bottom-container {
+    font-size: 1rem;
+    padding-top: 50px;
+    background-color: grey;
+    height: 150px;
+    position: relative;
+}
+
+.email {
+    left: 50%;
+    text-align: justify;
+    position: relative;
+    color: white;
+    width: 30%;
+
+}
+input {
+    display: block;
+}
+
+.copy {
+    position: relative;
+    top: 10px;
+}
+
+}
+  
